@@ -13,3 +13,23 @@ VARIABLE RULES:
   - Must start with a letter or an underscore
   - Can have numbers but can not start with one
 """
+
+'''
+x = 1  # int
+y = 2.0  # float
+flag = True  # bool
+str = "hello"  # string
+'''
+
+# Multiple assignment
+
+x, y, flag, s = (1, 2.0, True, "hello")
+
+print(x, y, flag, s)
+
+# Check type
+print(type(x))
+
+# Type casting
+print(str(x)+str(y))
+print(type(float(flag)))
